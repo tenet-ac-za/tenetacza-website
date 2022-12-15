@@ -1,6 +1,102 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
+
+<div id="aboveHead">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-6 text-left">
+			        <a href="https://twitter.com/tenetnews" target="_blank" rel="noreferrer noopener"><i class="fab fa-twitter"></i> Follow us on Twitter</a>
+                </div>
+				<div class="col-12 col-lg-6 text-right">
+					Fault reporting (24/7)  |  <a href="tel:+27217637147">+27 21 763 7147</a>  |  <a class="tenet-obfusticate tenet-cleartext" href="mailto:honeypot@tenet.ac.za" data-href="xltwez:dfaazce@epype.ln.kl">support@tenet.ac.za</a> <i class="fas fa-exclamation-circle"></i>
+				</div>
+			</div>
+		</div>
+	</div><div id="headContainer">
+		<div class="headerOverlay"></div>
+		<div class="navContainer">
+			<div class="container">
+				<!-- Navigation -->
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="/"><img src="/++theme++tenet2020/tenet/images/logo.svg" alt="TENET South Africa" width="160" height="80" /></a>
+					<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav ml-auto" id="portal-globalnav"><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za" class="state-None nav-link">
+            Home
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za/about" class="state-published nav-link">
+            About
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za/network" class="state-published nav-link">
+            Network
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za/services" class="state-published nav-link">
+            Services
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za/news" class="state-published nav-link">
+            News
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za/support" class="state-published nav-link">
+            Support
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li><li xmlns="" class="nav-item">
+            <a href="https://www.tenet.ac.za/contact" class="state-published nav-link">
+            Contact
+            </a>
+            <!-- <xsl:copy-of select="a[node()]"/> -->
+        </li></ul>
+					</div>
+				</nav>
+				<!-- / Navigation -->
+			</div>
+		</div>
+		<div id="titleContainer">
+			<div class="container">
+				<div class="row">
+					<div class="col titleContents">
+						<nav id="portal-breadcrumbs" class="plone-breadcrumb">
+  <div class="container">
+    <span id="breadcrumbs-you-are-here" class="hiddenStructure">You are here:</span>
+    <ol aria-labelledby="breadcrumbs-you-are-here">
+      <li id="breadcrumbs-home">
+        <a href="https://www.tenet.ac.za">Home</a>
+      </li>
+      <li id="breadcrumbs-1">
+        
+          
+          <span id="breadcrumbs-current">News</span>
+        
+      </li>
+    </ol>
+  </div>
+</nav>
+						<h1 class="documentFirstHeading">Our Activities and Achievements</h1>
+						<hr class="white" />
+						<div class="documentDescription">Celebrating our journey and contribution towards social and technical innovation</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="container">
+<section id="main">
+  <div>
+        <article id="content">
+           {{ .Content }}
+        </article>
+  </div>
+</section>
+</div>
 {{ end }}
