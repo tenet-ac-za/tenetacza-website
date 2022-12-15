@@ -1,4 +1,4 @@
-baseURL = "https://tenet-ac-za.github.io/tenetacza-website"
+baseURL = "https://tenet-ac-za.github.io/tenetacza-website/"
 languageCode = "en-us"
 title = "TENET Website"
 theme = "TENET"
