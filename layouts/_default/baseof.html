@@ -3,7 +3,7 @@
 <head>
     {{- partial "head.html" . -}}
 <head/>
- <body class="home generic frontend icons-on portaltype-collection section-home site-tenet.ac.za template-plone-app-contenttypes-behaviors-collection thumbs-on userrole-anonymous viewpermission-none">
+ <body class="{{ if .Params.hide_banner }} generic {{ else }} home {{ end }} frontend icons-on portaltype-collection section-home site-tenet.ac.za template-plone-app-contenttypes-behaviors-collection thumbs-on userrole-anonymous viewpermission-none">
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
         {{- partial "footer.html" . -}}
