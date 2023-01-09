@@ -1,0 +1,10 @@
+<div class="generic">
+  {{ range .Site.Data.news }}
+    <div class="staff-member">
+      <img class="staff-member__image" src="{{ .image }}">
+      <div>
+        <p class="staff-member__name">{{ .description }}</p>
+      </div>
+    </div>
+  {{ end }}
+</div>
