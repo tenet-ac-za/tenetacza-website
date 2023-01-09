@@ -1,7 +1,7 @@
-baseURL = "https://tenet-ac-za.github.io/tenetacza-website/"
+baseURL = ""https://tenet-ac-za.github.io/tenetacza-website/"
 languageCode = "en-us"
-title = "TENET Website"
-theme = "TENET"
+title = "TENET South Africa"
 
-
-
+[Params]
+  newsheader = 'Our Activities and Achievements'
+  newssubheader = 'Celebrating our journey and contribution towards social and technical innovation'
